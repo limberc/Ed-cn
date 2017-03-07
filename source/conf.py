@@ -52,8 +52,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Edward中文文档'
-copyright = '2017, 那只猫'
-author = '那只猫'
+copyright = '2017, ZehuaCheng'
+author = 'Zehua Cheng'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
