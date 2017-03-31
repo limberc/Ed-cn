@@ -9,7 +9,7 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 它支持以下方式的建模：
 
 * 定向图模型
-* 神经网络（通过 Keras 和 TensorFlow Slim 等库）
+* 神经网络（通过[Keras](http://keras.io) 和 [TensorFlowSlim](https://github.com/tensorflow/tensorflow/tree/master/tensorflow/contrib/slim)等库）
 * 条件特定的无向模型
 * 贝叶斯非参数和概率程序
 
@@ -20,7 +20,7 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 
 - 黑箱变分推理
 - 随机变分推理
-- 包容 KL 散度（Inclusive KL divergence）：\text{KL}(p\|q)KL(p∥q)
+- 包容 KL 散度（Inclusive KL divergence）
 - 最大后验估计
 
 蒙特卡洛（Monte Carlo）
