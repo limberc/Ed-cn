@@ -1,17 +1,15 @@
-.. Edward中文文档 documentation master file, created by
-   sphinx-quickstart on Tue Mar  7 19:00:29 2017.
+.. Edward documentation master file, created by
+   sphinx-quickstart on Fri Mar 31 16:42:16 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-
-Edward中文文档
-==========================================
+Welcome to Edward's documentation!
+==================================
 
 Contents:
 
 .. toctree::
    :maxdepth: 2
-
 
 
 
