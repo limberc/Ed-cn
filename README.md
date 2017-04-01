@@ -1,4 +1,4 @@
-# Edward
+# Edward中文文档
 
 [github地址](https://github.com/blei-lab/edward)
 
@@ -41,6 +41,10 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 - 后验预测检查（Posterior predictive checks）
 
 同时，由于Edward 构建于 TensorFlow 之上。它支持诸如计算图、分布式训练、CPU/GPU 集成、自动微分等功能，也可以用 TensorBoard 可视化。
+
+## 注
+
+欢迎有能力的小伙伴参加翻译（chengzehua@outlook.com)。
 
 ## Resources
 
