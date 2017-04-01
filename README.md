@@ -4,6 +4,8 @@
 
 [Paper](https://arxiv.org/pdf/1701.03757v1.pdf)
 
+[中文文档地址](https://edward-cn.readthedocs.io/zh/latest/)
+
 Edward 是一个用于概率建模、推理和评估的 Python 库。它是一个用于快速实验和研究概率模型的测试平台，其涵盖的模型范围从在小数据集上的经典层次模型到在大数据集上的复杂深度概率模型。Edward 融合了以下三个领域：贝叶斯统计学和机器学习、深度学习、概率编程。
 
 它支持以下方式的建模：
