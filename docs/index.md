@@ -36,7 +36,7 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 - 基于点的评估（Point-based evaluations）
 - 后验预测检查（Posterior predictive checks）
 
-同时，由于Edward 构建于 TensorFlow 之上。它支持诸如计算图、分布式训练、CPU/GPU 集成、自动微分等功能，也可以用 TensorBoard 可视化。
+同时，由于Edward 构建于TensorFlow之上。它支持诸如计算图、分布式训练、CPU/GPU 集成、自动微分等功能，也可以用 TensorBoard 可视化。
 
 ## 关于Edward-cn
 
@@ -44,7 +44,7 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 
 由于作者水平和研究方向所限，无法对所有模块都非常精通，因此文档中不可避免的会出现各种错误、疏漏和不足之处。如果您在使用过程中有任何意见、建议和疑问，欢迎发送邮件到chengzehua@outlook.com与我取得联系。
 
-您对文档的任何贡献，包括文档的翻译、查缺补漏、概念解释、发现和修改问题、贡献示例程序等，均会被记录在[致谢](https://keras-cn.readthedocs.io/en/latest/acknowledgement)，十分感谢您对Edward中文文档的贡献！
+您对文档的任何贡献，包括文档的翻译、查缺补漏、概念解释、发现和修改问题、贡献示例程序等，均会被记录，稍后将开放“致谢”，十分感谢您对Edward中文文档的贡献！
 
 ## 我们开始吧！
 
@@ -114,7 +114,7 @@ inference.run(n_iter=500)
 
 ## 注
 
-欢迎有能力的小伙伴参加翻译（chengzehua@outlook.com)。
+欢迎有能力的小伙伴参加研究(chengzehua@outlook.com)。
 
 ## Resources
 
