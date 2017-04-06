@@ -99,6 +99,39 @@ ed.evaluate('mean_squared_error', data={X: X_test, y_post: y_test})
 
 妥妥的得到均方误差。
 
+```
+## Mean squared error on test data:
+## 0.0300492
+## Mean absolute error on test data:
+## 0.123616
+```
+
+训练有素的模型以低误差进行预测（误差精度相对于输出的幅度）。
+
+我们还可以将生成的数据与之前生成的数据（第一个特征维度）做比较，从而可视化拟合，我们来看看结果。
+
+```python
+def visualise(X_data, y_data, w, b, n_samples=10):
+	w_samples = w.sample(n_samples)[0].eval()
+	b_samples = b.sample(n_samples).eval()
+	plt.scatter(X_data[:, 0], y_data)
+	plt.ylim([-10, 10])
+    inputs = np.linspace(-8, 8, num=400)
+    for ns in range(n_samples):
+        output = inputs * w_samples[ns] + b_samples[ns]
+    	plt.plot(inputs, output)
+
+visualise(X_train, y_train, w, b)
+```
+
+![output_1](output/Supervised-Regression-Model/output_1.png)
+
+```
+visualise(X_train, y_train, qw, qb)
+```
+
+![output_2](output/Supervised-Regression-Model/output_2.png)
+
 ## 线性混合模型
 
 固定和随机效应的线性建模。
