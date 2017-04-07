@@ -1,10 +1,6 @@
 # Edward中文文档
 
-[github地址](https://github.com/blei-lab/edward)
-
-[Paper](https://arxiv.org/pdf/1701.03757v1.pdf)
-
-[中文文档地址](https://edward-cn.readthedocs.io/zh/latest/)
+[github地址](https://github.com/blei-lab/edward) [Paper](https://arxiv.org/pdf/1701.03757v1.pdf) [中文文档地址](https://edward-cn.readthedocs.io/zh/latest/)
 
 Edward 是一个用于概率建模、推理和评估的 Python 库。它是一个用于快速实验和研究概率模型的测试平台，其涵盖的模型范围从在小数据集上的经典层次模型到在大数据集上的复杂深度概率模型。Edward 融合了以下三个领域：贝叶斯统计学和机器学习、深度学习、概率编程。
 
@@ -47,6 +43,15 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 ## 注
 
 欢迎有能力的小伙伴参加翻译（chengzehua@outlook.com)。
+
+## 关于变分推理
+
+我和Dustin关于VI找了许多资料，认为：
+
+1.  [Kucukelbir and Blei (2016)](https://arxiv.org/abs/1601.00670)
+2. [NIPS 2016 tutorial ](https://nips.cc/Conferences/2016/Schedule?showEvent=6199)
+
+十分有帮助，如果有对变分推理有兴趣的同学可以借由这两篇paper去了解一下。
 
 ## Resources
 
