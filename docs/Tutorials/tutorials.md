@@ -1,3 +1,7 @@
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+
 # 教程
 
 Edward提供了一个用于快速实验和研究的概率模型的测试平台。这里我们将展示如何将这个过程应用于不同的学习任务。
