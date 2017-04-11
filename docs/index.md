@@ -1,5 +1,9 @@
 # Edward中文文档
 
+Edward的设计反映了概率建模的基础。 它定义了可互换的组件，并且可以使用概率模型进行快速实验和研究。
+
+Edward被命名的梗是[George Edward Pelham Box](https://en.wikipedia.org/wiki/George_E._P._Box)。Edward的设计遵循了Box先生的统计学和机器学习理论（Box，1976）。
+
 Edward 是一个用于概率建模、推理和评估的 Python 库。它是一个用于快速实验和研究概率模型的测试平台，其涵盖的模型范围从在小数据集上的经典层次模型到在大数据集上的复杂深度概率模型。Edward 融合了以下三个领域：贝叶斯统计学和机器学习、深度学习、概率编程。
 
 它支持以下方式的建模：
