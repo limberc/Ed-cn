@@ -58,7 +58,7 @@ Edward 是一个用于概率建模、推理和评估的 Python 库。它是一�
 pip install edward
 ```
 
-Edward中的概率建模使用简单的随机变量。 这里我们将展示一个贝叶斯神经网络。 它是一个神经网络，其重量具有先前的分布。
+Edward中的概率建模使用简单的随机变量。 这里我们将展示一个贝叶斯神经网络。 它是一个神经网络，其权具有先验分布。
 
 ```python
 import numpy as np
@@ -71,7 +71,7 @@ y_train = y_train.astype(np.float32).reshape((50, 1))
 
 ![getting-started-fig0](getting-started-fig0.png)
 
-接下来，定义一个双层贝叶斯神经网络。 在这里，我们用`tanh`非线性手动定义神经网络。
+接下来，定义一个双层贝叶斯神经网络。 在这里，我们定义`tanh`神经网络。
 
 ```python
 import tensorflow as tf
