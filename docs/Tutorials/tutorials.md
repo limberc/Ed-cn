@@ -174,9 +174,21 @@ Bates, D., Mächler, M., Bolker, B., & Walker, S. (2015). Fitting Linear Mixed-E
 
 Gelman, A., & Hill, J. L. (2006). *Data analysis using regression and multilevel/hierarchical models*. Cambridge University Press.
 
+## Batch训练
+
+如何优雅的只用minibatch来训练模型。
+
+## TensorBoard可视化
+
+搭配TensorBoard来对训练过程进行可视化。
+
 ## 高斯过程分类
 
-学习分配监督分类功能
+有监督分类来学习函数的概率分布。
+
+## 自动变换
+
+用变换优雅的完成受限连续支持。
 
 ## 混合模型
 
@@ -192,7 +204,7 @@ Gelman, A., & Hill, J. L. (2006). *Data analysis using regression and multilevel
 
 ## 生成对抗网络
 
-构建MNIST数字的深刻生成模型。
+构建MNIST数字的生成模型。
 
 ## 概率解码器
 
@@ -226,4 +238,3 @@ Gelman, A., & Hill, J. L. (2006). *Data analysis using regression and multilevel
 There are also companion webpages for several papers about Edward.
 
 [“Deep probabilistic programming” at ICLR 2017](http://edwardlib.org/tutorials/supervised-regression)
-
